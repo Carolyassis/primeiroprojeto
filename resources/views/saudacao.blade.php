@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title> Saudação</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Página de saudação</title>
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
 
-<?php for($i = 0; $i < 100; $i++): ?>
-<h1> Olá mundo php <?= $i ?></h1>
-<?php endfor; ?>
-</body>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Olá Mundo</h1>
+    </div>
+    <script type="text/javascript" src="/js/app.js">
+  </body>
+
 </html>
